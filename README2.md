@@ -4,12 +4,7 @@ This repository provides a visualized explanation of convolution for
 
 
 
-Convolution is a mathematical operation defined as
-
-\begin{equation}
-    \label{FD}
-    f'(a) \approx \frac{f(a + \Delta x) - f(a)}{\Delta x}
-\end{equation}
+Convolution is a mathematical operation defined as where $x = a \pm n\Delta x \ ( n = 0, 1, 2, \cdots)$ represents a set of discrete points with the spacing
 
 Convolution is a mathematical operation defined as
 
