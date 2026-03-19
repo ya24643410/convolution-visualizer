@@ -5,12 +5,14 @@ This repository provides a visualized explanation of convolution for
 
 
 Convolution is a mathematical operation defined as
+
 \begin{equation}
     \label{FD}
     f'(a) \approx \frac{f(a + \Delta x) - f(a)}{\Delta x}
 \end{equation}
 
 Convolution is a mathematical operation defined as
+
 $$
 (f \ast g) (t) = \int_{-\infty}^\infty f(\tau) g(t-\tau) d\tau
 $$
