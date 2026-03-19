@@ -5,9 +5,9 @@ This repository provides a visualized explanation of convolution for
 
 
 Convolution is a mathematical operation defined as
-$$
+begin(equation)
 (f \ast g) (t) = \int_{-\infty}^\infty f(\tau) g(t-\tau) d\tau
-$$
+end
 
 
 
