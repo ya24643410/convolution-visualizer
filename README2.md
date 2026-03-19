@@ -11,8 +11,6 @@ Convolution is a mathematical operation defined as
 $$
 (f \ast g) (t) = \int_{-\infty}^\infty f(\tau) g(t-\tau) d\tau
 $$
-565656
-
 
 This repository provides elementary learning materials for beginners in the finite-difference time-domain (FDTD) method. We will go through the basic topics of the FDTD method, including the basic update equations, etc. In each topic, we begin with theoretical concept interpretation and end with a practical coding example. After this course, you will have the ability to create your own simulation projects and we hope this course can become the startpoint of your amazing computational electromagnetics journey.
 
