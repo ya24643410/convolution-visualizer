@@ -2,6 +2,8 @@
 
 This repository provides a detailed explanation of convolution and a Julia-based visualization of the convolution of two rectangular functions, which makes the concept more concrete. It is designed to help beginners develop both a clear understanding and an intuitive picture of this otherwise abstract concept.
 
+# Convolution Visualizer
+This repository provides a detailed explanation of convolution and a Julia-based visualization of the convolution of two rectangular functions, which makes the concept more concrete. It is designed to help beginners develop both a clear understanding and an intuitive picture of this otherwise abstract concept.
 
 Convolution is a mathematical operation defined as where $x = a \pm n\Delta x \ ( n = 0, 1, 2, \cdots)$ represents a set of discrete points with the spacing
 
