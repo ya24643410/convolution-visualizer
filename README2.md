@@ -29,7 +29,7 @@ $$
 ### Step 3: Times $f(\tau)$ and $g(t-\tau)$
 
 $$
-f(\tau) * g(-\tau)
+f(\tau) * g(t-\tau)
 $$
 
 ### Step 4: Calculate the area under the new function
