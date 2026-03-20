@@ -1,4 +1,5 @@
 # Convolution Visualizer
+
 This repository provides a detailed explanation of convolution and a Julia-based visualization of the convolution of two rectangular functions, which makes the concept more concrete. It is designed to help beginners develop both a clear understanding and an intuitive picture of this otherwise abstract concept.
 
 
