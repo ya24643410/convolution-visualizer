@@ -3,13 +3,46 @@
 This repository provides a detailed explanation of convolution and a Julia-based visualization of the convolution of two rectangular functions, which makes the concept more concrete. It is designed to help beginners understand the concept of convolution and build an intuitive picture of this otherwise abstract concept.
 
 ## Convolution
-Convolution is a mathematical operation defined as
+
+Consider two functions $f(\tau)$ and $g(\tau)$, their convolution is defined as
 
 $$
 (f \ast g) (t) = \int_{-\infty}^\infty f(\tau) g(t-\tau) d\tau
 $$
 
-This repository provides elementary learning materials for beginners in the finite-difference time-domain (FDTD) method. We will go through the basic topics of the FDTD method, including the basic update equations, etc. In each topic, we begin with theoretical concept interpretation and end with a practical coding example. After this course, you will have the ability to create your own simulation projects and we hope this course can become the startpoint of your amazing computational electromagnetics journey.
+This operation looks complicated but can be divided into 5 steps.
+
+### Step 1: Flip $g(\tau)$
+
+Hence, 
+
+$$
+g(\tau) \rightarrow g(-\tau)
+$$
+
+### Step 2: Shift $g(\tau)$ by $t$
+
+$$
+g(-\tau) \rightarrow g(t-\tau)
+$$
+
+### Step 3: Times $f(\tau)$ and $g(t-\tau)$
+
+$$
+f(\tau) * g(-\tau)
+$$
+
+### Step 4: Calculate the area under the new function
+
+$$
+\int_{-\infty}^\infty f(\tau) g(t-\tau) d\tau
+$$
+
+### Step 5: Repeat Step 1 to 4 with Another Value of $t$
+
+$$
+(f \ast g) (t)
+$$
 
 ## Prerequisites
 
